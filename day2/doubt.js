@@ -58,16 +58,30 @@
 //    }
 // });
 
-let person = 
+// let person = 
+// {
+//     name:'smith',
+//     age:25,
+//     email:'smith@gmail.com',
+//     skills:{
+//         hobbies:['cricket','football']
+//     }
+// }
+// for(let [key,value] of Object.entries(person))
+// {
+//     console.log(key,value);
+// }
+
+let XMLHttpRequest = require('xhr2');
+let xhr = new XMLHttpRequest();
+xhr.open('GET','https://restcountries.com/v3.1/all');
+xhr.send();
+
+xhr.onload = function()
 {
-    name:'smith',
-    age:25,
-    email:'smith@gmail.com',
-    skills:{
-        hobbies:['cricket','football']
+    let counties = JSON.parse(xhr.responseText);
+    for(let i in counties)
+    {
+        console.log(counties[i].name['common']);
     }
-}
-for(let [key,value] of Object.entries(person))
-{
-    console.log(key,value);
 }
