@@ -1,0 +1,9 @@
+##Topics
+
+var vs let vs const
+block scoping
+spread & rest operators
+array & object destructure
+Object property shorthand
+Template literals
+Arrow functions
