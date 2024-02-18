@@ -158,11 +158,47 @@
 // console.log(name());
    
 
+//Doubts
 
+//Arrow function
+//syntax
 
+// ()=>{};
+//Wihtout arguments
+// let value = ()=>{
+//     console.log("Welcome");
+// }
+// value();
 
+//with arguments
 
+// let sum = (a,b)=>{
+//     console.log(a+b);
+// }
+// sum(5,3);
 
+//with arguments and return type
+//for return you have to store it in a variable to get the return value
+// let sum = (a,b)=>{
+//        return a+b;
+//     }
+//    let result = sum(4,5);
+//    console.log(result);
+
+//spread opeator converts an array into list of values,
+//Rest operator creats an array of elements;
+// let obj1=
+// {
+//     name:'shijin',
+//     age:24
+// }
+// let obj2 = {
+//     ...obj1,
+//     name:'Manu',
+//     place:'choozhal'
+// }
+// console.log(obj1);
+// console.log(obj2);
 
 
 
