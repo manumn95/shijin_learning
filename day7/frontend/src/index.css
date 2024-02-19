@@ -1,0 +1,183 @@
+<!----Tag selector--->
+h1{
+    color: blue !important;
+    background-color: aqua;
+    display: inline;
+    width:250px;
+}
+
+/**Univerasl Selector**/
+*
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+/** ID selector **/
+
+#heading2
+{
+    color: blueviolet;
+}
+
+/**Class selector**/
+.heading3
+{
+    color: bisque;
+}
+
+/** Attribute selector**/
+
+ol[type='1']
+{
+    color:red;
+}
+input[type='text']
+{
+    background-color: antiquewhite;
+}
+
+/** Desendant selector**/
+table tr {
+    background-color: bisque;
+}
+
+/** child selector**/
+
+.un >li{
+    color: brown;
+}
+
+/** Adjacent sibiling slector**/
+
+.un +p{
+    color:green;
+}
+
+/**Gropu selectors**/
+
+h1{
+    border: 5px double black;
+    padding:10px 20px 30px;
+    margin:20px
+}
+
+/**Pseudo Selectors**/
+
+.h::first-letter{
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: blue;
+}
+a:visited{
+
+}
+input:focus{
+    background-color: white;
+}
+
+.menu{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+  
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li{
+    margin:0px 10px;
+    border:1px solid lightgray;
+    padding:5px 10px;
+}
+.menu li:hover{
+    background-color:lightgrey;
+}
+.nav
+{
+    height: 250px;
+    background-color: antiquewhite;
+}
+.home{
+    order:1;
+    
+}
+.service
+{
+    order:2;
+
+}
+.about
+{
+    order:3;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.container
+{
+    background-color:cadetblue;
+   
+}
+
+.body
+{
+    display: flex;
+    flex-direction: row;
+
+ 
+}
+.p1
+{
+    background-color: red;
+    margin:0px 10px;
+
+}
+.p2
+{
+    background-color: blue;
+    margin:0px 10px;
+}
+.p3
+{
+    background-color: green;
+    margin:0px 10px;
+}
+.p4
+{
+    background-color: pink;
+    margin:0px 10px;
+}
+
+
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+}
+.gridItem {
+    background-color: #D7EAFD;
+    border: 10px solid #2096F3;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header
+{
+    grid-column: 1/span3;
+}
+.menu{
+    grid-row: 2/span2;
+}
+.footer
+{
+    grid-column: 2/span2;
+}
