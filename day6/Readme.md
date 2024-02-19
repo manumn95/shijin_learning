@@ -1,6 +1,7 @@
 ## Task1
--  * * This is related to 
-- * Italic
+-   This is related to **Doubts**
+- *Italic*
+* This is a paragraph  
 - `Highlight`
-- API Endpoint = []"www.google.com" 
+- API Endpoint [Google](www.google.com) 
 - Hi
