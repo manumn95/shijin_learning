@@ -1,0 +1,85 @@
+/*
+ img{
+    width:300px;
+    border: 2px solid white;
+}
+.div1
+{
+    text-align: center;
+    margin-top: 20%;
+}
+p,h3{
+    color: white;
+}
+div > p{
+    color: red;
+}
+div ul li{
+    color:green
+}
+
+div#hi.div1.heading.value
+{
+    background-color: brown;
+}
+.div3
+{
+    background-color: aqua;
+}
+.border
+{
+    border: 5px solid blue;
+}
+
+ul li.pi
+{
+    color: pink;
+}
+input[type="text"]
+{
+    background-color: red;
+}
+
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+table
+{
+    margin: 10px;
+}
+
+tr th::first-letter{
+    text-transform: lowercase;
+}
+tr:nth-child(even)
+{
+    background-color:aquamarine ;
+}
+
+*/
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+.div2
+{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet; 
+    display: inline; 
+}
+.div3
+{
+    height: 200px;
+    width: 200px;
+    background-color: orange;  
+}
+.container
+{
+    width: 100%;
+    background-color: lightgray;
+}

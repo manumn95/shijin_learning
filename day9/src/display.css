@@ -1,0 +1,22 @@
+body{
+    background-color: aliceblue;
+}
+
+.div1
+{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+
+}
+
+.div4
+{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+}
+img{
+    float: right;
+}
+
