@@ -1,0 +1,34 @@
+.container
+{
+    height: 100vh;
+    background-color: black;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ align-content: start;
+}
+.one1
+{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+   flex:1 1 100px;
+}
+.one2
+{
+    background-color:green;
+    width: 200px;
+    height: 50px;
+}
+.one3
+{
+    background-color: orange;
+    width: 200px;
+    height: 50px;
+}
+.one4
+{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+}
