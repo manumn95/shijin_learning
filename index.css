@@ -1,0 +1,35 @@
+.one {
+  background-color: red;
+  grid-column: 1/-1;
+}
+.two {
+  background-color: blue;
+  grid-row: 2/-1;
+}
+.three {
+  background-color: seagreen;
+  grid-row: 2/-1;
+  grid-column: 2/-1;
+}
+.four {
+  background-color: navajowhite;
+  grid-column: 1/-1;
+}
+.five {
+  background-color: brown;
+}
+.six {
+  background-color: violet;
+}
+.sev {
+  background-color: aquamarine;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+}
